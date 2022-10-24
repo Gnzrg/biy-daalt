@@ -33,10 +33,7 @@
 .article-left{
     width: 50%;
 }
-.bg{
-    background-color: #DCEAF5;
-    width: 100%;
-}
+
 .article{
     display: flex;
 }
@@ -478,9 +475,9 @@ color: #5B5B5B;
 }
 .CTA-title{
     position: absolute;
-    top: 128px;
-    left: 128px;
-    margin-right: 281.5px;
+    top: 70px;
+    left: 70px;
+    margin-right: 220px;
 }
 .CTA-title h2{
     font-family: 'Poppins';
@@ -501,7 +498,7 @@ font-weight: 600;
 font-size: 16px;
 line-height: 106.5%;
 /* identical to box height, or 17px */
-
+padding-top: 40px;
 text-transform: capitalize;
 
 color: #F58A07;
@@ -835,3 +832,4 @@ bottom: 138px;
 background: #F58A07;
 border-radius: 20px 0px 0px 20px;
 }
+
