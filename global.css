@@ -45,6 +45,10 @@ a{
 .nav ul li{
     padding-left: 35px;
 }
+.nav ul li :hover{
+    opacity: 0.3;
+    color: #F58A07;
+}
 .header-btn{
     background-color: rgba(245, 138, 7, 0.1);
     color: #F58A07;
@@ -63,7 +67,7 @@ a{
     position: relative;
 }
 .footer-section-top{
-    padding-top: 80px;
+    padding-top: 50px;
     display: flex;
     justify-content: space-between;
 }
@@ -89,6 +93,9 @@ color: #FFFFFF;
 .social-icons img{
     margin-right: 10px;
 }
+.social-icons img:hover{
+    opacity: 0.3;
+}
 .footer-article2{
     width: 28%;
     display: flex;
@@ -99,9 +106,16 @@ color: #FFFFFF;
     flex-direction: column;
     justify-content: flex-start;
 }
+.about-us ul li:hover{
+    opacity: 0.3;
+}
 .address{
     width: 50%;
-}.footer-article2 h4{
+}
+.address a:hover{
+    opacity: 0.3;
+}
+.footer-article2 h4{
     font-family: 'Poppins';
 font-style: normal;
 font-weight: 600;
@@ -175,6 +189,9 @@ button {
     border-radius: 30px;
     margin-top: 10px;
     border: none;
+}
+.footer-btn:hover{
+    opacity: 0.8;
 }
 .footer-section-bottom {
     width:100%;
